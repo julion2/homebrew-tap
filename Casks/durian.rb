@@ -1,6 +1,6 @@
 cask "durian" do
   version "0.1.3"
-  sha256 "0a90386f7fe4bac52ed539c6ba5346117d17225be9f12187dc48887606bc0d79"
+  sha256 "6002fdb9ed242722b6a689d6e9b481dc6f96f4a6adee0caca19fa72a8ae6d4e5"
 
   url "https://github.com/julion2/Durian/releases/download/v#{version}/Durian-#{version}.zip"
   name "Durian"
