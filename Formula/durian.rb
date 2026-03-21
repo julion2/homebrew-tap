@@ -1,7 +1,7 @@
 class Durian < Formula
   desc "Fast email client CLI - IMAP sync, SQLite store, HTTP API"
   homepage "https://github.com/julion2/Durian"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
