@@ -1,16 +1,16 @@
 class Durian < Formula
   desc "Fast email client CLI - IMAP sync, SQLite store, HTTP API"
   homepage "https://github.com/julion2/Durian"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/julion2/Durian/releases/download/v#{version}/durian-#{version}-darwin-arm64.tar.gz"
-      sha256 "1ffdaf4806af45654ebb60fafd74e686a2aa7478ccd05e948601a907fbcdeb37"
+      sha256 "8715d1331aa98e059fec4476a4686a1b7f0b92c6e2db46d44b7492bd3d152e56"
     else
       url "https://github.com/julion2/Durian/releases/download/v#{version}/durian-#{version}-darwin-amd64.tar.gz"
-      sha256 "01ac55dc9a9b66e527856e4e86a2b68894e793e624d3feb1844d7d74f9a90205"
+      sha256 "ef909cbc8e4e71d2b5049c659b3636aadd9df6eadbfd702613ff6885e6c9b7c2"
     end
   end
 
