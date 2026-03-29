@@ -7,10 +7,10 @@ class Durian < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/julion2/Durian/releases/download/v#{version}/durian-#{version}-darwin-arm64.tar.gz"
-      sha256 "cf45a3edda78a54473188f3355d21534cefc4945c02a08f1e3fdfc796d2ee126"
+      sha256 "f59fa352a39c7fa63e4f93ab8a780ff3891fc6f9076e2679ce53ae975caecc5c"
     else
       url "https://github.com/julion2/Durian/releases/download/v#{version}/durian-#{version}-darwin-amd64.tar.gz"
-      sha256 "add96b897e024b3a37e9a1f6d96baef2ae7eed94ae09c55ff11776bf8a2d4c7c"
+      sha256 "0cb67eb2930b1116adb5694a3421b7616f971310fc7625e0edcee1449b88f9ab"
     end
   end
 
