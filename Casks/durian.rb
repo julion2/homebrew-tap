@@ -1,11 +1,11 @@
 cask "durian" do
-  version "0.2.2"
-  sha256 "df01936049f5fb19fe9cf847d5059641e1b92819ede4c797d577ea6ba323586b"
+  version "0.3.0"
+  sha256 "acbff75e5b736ba19e37e08db8ef3e4dd53ae1c48e36f3bf65d8de9dcd075dd5"
 
-  url "https://github.com/julion2/Durian/releases/download/v#{version}/Durian-#{version}.zip"
+  url "https://github.com/julion2/durian/releases/download/v#{version}/Durian-#{version}.zip"
   name "Durian"
   desc "macOS email client for power users"
-  homepage "https://github.com/julion2/Durian"
+  homepage "https://github.com/julion2/durian"
 
   app "Durian.app"
 end

@@ -1,26 +1,26 @@
 class Durian < Formula
   desc "Fast email client CLI - IMAP sync, SQLite store, HTTP API"
-  homepage "https://github.com/julion2/Durian"
-  version "0.2.2"
+  homepage "https://github.com/julion2/durian"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/julion2/Durian/releases/download/v#{version}/durian-#{version}-darwin-arm64.tar.gz"
-      sha256 "2f0a87bb0b2595d1b5ebd4317a1e92077becbb0f1b15f60700ef4facbc56e467"
+      url "https://github.com/julion2/durian/releases/download/v#{version}/durian-#{version}-darwin-arm64.tar.gz"
+      sha256 "a2062524367a877140bab07c6bd12ace358e463701f4b9788c7e3c80e5a91963"
     else
-      url "https://github.com/julion2/Durian/releases/download/v#{version}/durian-#{version}-darwin-amd64.tar.gz"
-      sha256 "70ea60b6b2a1356f0f9148cc9822b9638ac132da01f4c21edaeb935d32a465c5"
+      url "https://github.com/julion2/durian/releases/download/v#{version}/durian-#{version}-darwin-amd64.tar.gz"
+      sha256 "bae9ac67f76bc6455a22c03945455790ecfde5559cb97226ce465f786e922a1a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/julion2/Durian/releases/download/v#{version}/durian-#{version}-linux-arm64.tar.gz"
-      sha256 "4070f70c59a3fe1f45bc302e48b46a035b3f0afbbf2041bf1301dd8fb6d73f44"
+      url "https://github.com/julion2/durian/releases/download/v#{version}/durian-#{version}-linux-arm64.tar.gz"
+      sha256 "9366e06f6d86369a04412074f62d470dd965503722499bac036b1f158c390644"
     else
-      url "https://github.com/julion2/Durian/releases/download/v#{version}/durian-#{version}-linux-amd64.tar.gz"
-      sha256 "7dd5880420d8554aadb21524c8c25d34faab019513bdaea7594c6d0e5ee9e1a9"
+      url "https://github.com/julion2/durian/releases/download/v#{version}/durian-#{version}-linux-amd64.tar.gz"
+      sha256 "a29b8f755a63b3accf178a33b2bf01b0de58d08d2f0b69c317b952224531c27f"
     end
   end
 
